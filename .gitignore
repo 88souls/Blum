@@ -3,10 +3,7 @@
 *.db
 
 # Executables
-xblum
 xblum_2009
-create_bloom_filter_v2
-test_increment
 
 # Build artifacts
 *.o

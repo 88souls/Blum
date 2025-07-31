@@ -45,5 +45,4 @@ make -f Makefile_2009
 ## Notes
 - The script runs continuously until stopped
 - It uses multi-threading for faster processing
-- The Bloom filter must be created first using `create_bloom.sh`
 - This is for educational/research purposes only 
