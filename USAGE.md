@@ -1,17 +1,17 @@
-# MnemonicC++ 2009 Mode - Usage Guide
+# xblum++ 2009 Mode - Usage Guide
 
 ## Overview
 This script generates Bitcoin private keys directly (as in 2009 Bitcoin wallets) and searches for specific addresses in a Bloom filter.
 
 ## Prerequisites
 - Bloom filter file: `target_addresses.blf`
-- Compiled executable: `MnemonicC++_2009`
+- Compiled executable: `xblum_2009`
 
 ## Basic Usage
 
 ### Command Format
 ```bash
-./MnemonicC++_2009 --2009 -b target_addresses.blf -o results_2009.txt -t 4
+./xblum_2009 --2009 -b target_addresses.blf -o results_2009.txt -t 4
 ```
 
 ### Parameters

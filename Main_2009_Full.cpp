@@ -443,7 +443,7 @@ void printStats() {
 }
 
 int main(int argc, char** argv) {
-    std::cout << "MnemonicC++ 2009 Mode - Direct Private Key Generator" << std::endl;
+    std::cout << "xblum++ 2009 Mode - Direct Private Key Generator" << std::endl;
     std::cout << "Started at: " << std::time(nullptr) << std::endl;
     std::cout << "==================================================" << std::endl;
     

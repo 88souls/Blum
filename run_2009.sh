@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "=== MnemonicC++ 2009 Mode - Direct Private Key Generator ==="
+echo "=== xblum++ 2009 Mode - Direct Private Key Generator ==="
 echo ""
 
 # Перевіряємо чи існує блюм-фільтр
@@ -11,7 +11,7 @@ if [ ! -f "target_addresses.blf" ]; then
 fi
 
 # Компілюємо якщо потрібно
-if [ ! -f "MnemonicC++_2009" ] || [ "Main_2009_Full.cpp" -nt "MnemonicC++_2009" ]; then
+if [ ! -f "xblum_2009" ] || [ "Main_2009_Full.cpp" -nt "xblum_2009" ]; then
     echo "Compiling 2009 version..."
     make -f Makefile_2009
     if [ $? -ne 0 ]; then
@@ -31,4 +31,4 @@ echo "Press Ctrl+C to stop"
 echo ""
 
 # Запускаємо програму
-./MnemonicC++_2009 --2009 -b target_addresses.blf -o results_2009.txt -t 4 
+./xblum_2009 --2009 -b target_addresses.blf -o results_2009.txt -t 4 

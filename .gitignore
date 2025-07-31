@@ -3,8 +3,8 @@
 *.db
 
 # Executables
-MnemonicC++
-MnemonicC++_2009
+xblum
+xblum_2009
 create_bloom_filter_v2
 test_increment
 
