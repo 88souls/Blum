@@ -1,0 +1,14 @@
+CXX = g++
+CXXFLAGS = -std=c++11 -O2 -Wall
+LIBS = -lsqlite3 -lssl -lcrypto
+
+TARGET = create_bloom_filter_v2
+SOURCE = create_bloom_filter_v2.cpp
+
+$(TARGET): $(SOURCE)
+	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SOURCE) $(LIBS)
+
+clean:
+	rm -f $(TARGET)
+
+.PHONY: clean 
