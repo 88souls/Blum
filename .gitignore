@@ -1,0 +1,29 @@
+# Large files
+*.blf
+*.db
+
+# Executables
+MnemonicC++
+MnemonicC++_2009
+create_bloom_filter_v2
+test_increment
+
+# Build artifacts
+*.o
+*.obj
+*.exe
+*.out
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp 
